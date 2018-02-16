@@ -47,7 +47,7 @@ kable(summary(cars),caption="I made this table with kable in the knitr package l
 
 And now you've almost finished your first RMarkdown! Feeling excited? We are! In fact, we are so excited that maybe we need a big finale eh? Here's ours! Include a fun gif of your choice!
 
-![](giphy.gif)
+![](HIMYM.gif)
 
 
 
