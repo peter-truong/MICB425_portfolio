@@ -8,10 +8,76 @@ output:
 
 ---
 
+single sample (considering 8 species)
     
+```{r}
+species1 = 56/(135)
+species2 = 29/(135)
+species3 = 16/(135)
+species4 = 19/(135)
+species5 = 2/(135)
+species6 = 4/(135)
+species7 = 3/(135)
+species8 = 6/(135)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2)
+```
+
+community sample (considering 8 species)
+
+```{r}
+species1 = 253/(768)
+species2 = 172/(768)
+species3 = 99/(768)
+species4 = 174/(768)
+species5 = 14/(768)
+species6 = 24/(768)
+species7 = 16/(768)
+species8 = 16/(768)
+
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2)
+```
+
+3.911784
+
+community sample (consdiering 32 samples)
+```{r}
+species1 = 28/(768)
+species2 = 28/(768)
+species3 = 60/(768)
+species4 = 44/(768)
+species5 = 30/(768)
+species6 = 63/(768)
+species7 = 39/(768)
+species8 = 33/(768)
+species9 = 42/(768)
+species10 = 35/(768)
+species11 = 23/(768)
+species12 = 15/(768)
+species13 = 16/(768)
+species14 = 18/(768)
+species15 = 15/(768)
+species16 = 19/(768)
+species17 = 16/(768)
+species18 = 39/(768)
+species19 = 36/(768)
+species20 = 27/(768)
+species21 = 32/(768)
+species22 = 40/(768)
+species23 = 14/(768)
+species24 = 4/(768)
+species25 = 5/(768)
+species26= 3/(768)
+species27 = 5/(768)
+species28 = 3/(768)
+species29 = 5/(768)
+species30 = 7/(768)
+species31 = 16/(768)
+species32 = 7/(768)
 
 
-
+1 / (species1^2 + species2^2 + species3^2 + species4^2 + species5^2 + species6^2 + species7^2 + species8^2 + species9^2 + species10^2 + species11^2 + species12^2 + species13^2 + species14^2 + species15^2 + species16^2 + species17^2 + species18^2 + species19^2 + species20^2 + species21^2 + species22^2 + species23^2 + species24^2 + species25^2 + species26^2 + species27^2 + species28^2 + species29^2 + species30^2 + species31^2 + species32^2)
+```
 
 
 ```{r}

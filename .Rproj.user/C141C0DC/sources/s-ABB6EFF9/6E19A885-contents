@@ -1,0 +1,96 @@
+---
+title: "Portfolio Content Grading"
+author: 36645133
+date: "version `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+## Module 01 Portfolio Content
+
+* Evidence worksheet_01
+    + Completion status: X
+    + Comments:
+* Evidence worksheet_02
+    + Completion status: X
+    + Comments:
+* Evidence worksheet_03
+    + Completion status:
+    + Comments:
+* Problem Set_01
+    + Completion status: X
+    + Comments:
+* Problem Set_02
+    + Completion status: X
+    + Comments:
+* Writing assessment_01
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments  
+
+### Data Science
+
+* Installation check
+    + Completion status: X
+    + Comments:
+* Portfolio repo setup
+    + Completion status: X
+    + Comments:
+* RMarkdown Pretty PDF Challenge
+    + Completion status: X
+    + Comments:
+* ggplot
+    + Completion status: 9.5/10
+    + Comments: Try simplifying your code by piping together all functions for a given plot.
+
+## Module 02 Portfolio Content
+
+* Evidence worksheet_04
+    + Completion status:
+    + Comments:
+* Problem Set_03
+    + Completion status:
+    + Comments:
+* Writing assessment_02
+    + CANCELED
+* Additional Readings
+    + Completion status:
+    + Comments 
+    
+## Module 03 Portfolio Content
+
+* Evidence worksheet_05
+    + Completion status:
+    + Comments:
+* Problem set_04
+    + Completion status:
+    + Comments:
+* Writing Assessment_03
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments 
+    
+### Project 1
+
+* CATME account setup and survey
+    + Completion status: 
+    + Comments: 
+* CATME interim group assessment
+    + Completion status: 
+    + Comments:
+* Project 1
+    + Report (80%): 
+    + Participation (20%):
+    
+## Module 04 Portfolio Content
+### Project 2
+
+* CATME final group assessment
+    + Completion status: 
+    + Comments:
+* Project 2
+    + Report (80%): 
+    + Participation (20%):

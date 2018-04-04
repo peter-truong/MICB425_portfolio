@@ -1,0 +1,55 @@
+metadata = read.table(file="~/MICB425_portfolio/Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t", na.strings=c("NAN", "NA", "."))
+OTU = read.table(file="Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings=c("NAN", "NA", "."))
+
+
+
+#Day 2
+
+library(tidyverse)
+
+  
+metadata %>% select(O2_uM)
+
+#select variables with O2 or oxygen in the name
+metadata %>% 
+  select(matches("O2|oxygen"))
+
+#filter rows(samples) where oxygen = 0, which rows has oxygen zero
+metadata %>% 
+  filter(O2_uM == 0)
+#at which depths is oxygen is zero
+metadata %>% 
+  filter(O2_uM == 0) %>% 
+  select(Depth_m)
+
+#Using dplyr, find at what depth(s) methane (CH4) is above 100rM while temperature is below 10degrees celsius. Print out a table showing only the depth, methane, and temperature data
+
+
+#metadata %>% 
+ # select (Depth_m)
+  #select (Temperature_C)
+#  filter (std_CH4_nM > 100)  
+ # filter (Temperature_C < 10) 
+  
+#select matches looks for the data you're lookig for
+metadata %>% 
+  select(matches("CH4|methane"))
+
+#never put units in the same cell
+metadata %>% 
+  select(matches("temp"))
+
+#Variables are CH4+nM and Temperature_C
+
+metadata %>% 
+  filter(CH4_nM > 100) %>% 
+  filter(Temperature_C < 10) %>% 
+  select(Depth_m, CH4_nM, Temperature_C)
+
+
+
+metadata %>% 
+  mutate (N2O_uM = N2O_nM/1000) %>% 
+  select(N2O_uM, N2O_nM)
+
+#convert al lvariables that are in nM to uM output a table showing onlyt heo orignal nM and converted uM variables

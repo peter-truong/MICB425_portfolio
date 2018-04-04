@@ -1,0 +1,153 @@
+
+library("tidyverse")
+
+source("https://bioconductor.org/biocLite.R")
+
+biocLite("phyloseq")
+
+library("knitr")
+library("phyloseq")
+
+
+library("magrittr")
+
+set.seed(4832)
+
+m.norm = rarefy_even_depth(mothur, sample.size=100000)
+
+
+m.perc = transform_sample_counts(m.norm, function(x) 100 * x/sum(x))
+
+
+m.alpha = estimate_richness(m.norm, measures = c("Chao1", "Shannon"))
+
+m.meta.alpha = full_join(rownames_to_column(m.alpha), rownames_to_column(data.frame(m.perc@sam_data)), by = "rowname")
+
+
+
+
+# Create new data frame to hold linear model outputs
+otu_stats = data.frame("Estimate" = numeric(0), "Std. Error"= numeric(0),"t value"= numeric(0),"Pr(>|t|)"= numeric(0))
+
+#filtered table
+m.cyano=m.norm %>%  subset_taxa(Phylum=="Cyanobacteria")
+m.filtered=data.frame(m.cyano@tax_table)
+
+#Run a loop across your row names from a table of your otu/asv table filtered to just those within your taxon of interest. In this script, this table is named "m.filtered".
+for (otu in row.names(m.filtered)){
+  #Make sure necessary packages are loaded
+  require(tidyverse)
+  require(knitr)
+  #Run a linear model of 1 OTU against depth
+  linear_fit = m.norm %>% 
+    psmelt() %>% 
+    filter(OTU==otu) %>% 
+    
+    lm(Abundance ~ Depth_m, .) %>% 
+    summary()
+  #Pull out the coefficients and p-values for depth
+  otu_data = linear_fit$coefficients["Depth_m",]
+  #Add these values to a growing table of OTUs
+  otu_stats <- rbind(otu_stats, otu_data)
+}
+#Rename columns of output table
+colnames(otu_stats)<- (c("Estimate", "Std. Error","t value","Pr(>|t|)"))
+
+#Apply row names from the m.filtered data to the lm output table
+row.names(otu_stats) <- row.names(m.filtered)
+
+#Print table
+kable(otu_stats,caption="Correlation data of OTUs within Chloroflexi phylum across depth")
+
+
+
+p.adjust(c(0.01554, 0.01559, 0.5322, 0.6641, 0.0164, 0.6629, 0.885, 0.6864, 0.885, 0.6864, 0.5322, 0.7033, 0.0164, 0.5322, 0.0164), method="fdr")
+
+
+
+
+
+#generating OTU from our phyla
+m.norm %>%
+  subset_taxa(Phylum== "Cyanobacteria") %>%
+  otu_table()
+
+
+m.norm %>% 
+  psmelt() %>% 
+  filter(OTU=="Otu4312") %>% 
+  
+  lm(Abundance ~ Depth_m, .) %>% 
+  summary()
+
+
+
+#subsettaxa only works with mothur & not Qime
+m.perc %>% 
+  subset_taxa(Phylum=="Cyanobacteria") %>% 
+  psmelt() %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance_sum=sum(Abundance), Depth_m=mean(Depth_m)) %>% 
+  
+  ggplot() +
+  geom_point(aes(x=Depth_m, y=Abundance_sum)) +
+  geom_smooth(method='lm', aes(x=as.numeric(Depth_m), y=Abundance_sum)) +
+  labs(title="Abundance of Cyanobacteria across oxygen concentrations")
+
+
+
+
+
+m.meta.alpha %>% 
+  
+  ggplot() +
+  geom_point(aes(x=Depth_m, y=Shannon)) +
+  geom_smooth(method='auto', aes(x=as.numeric(Depth_m), y=Shannon)) +
+  labs(title="Example 1: Alpha-diversity across depth", y="Shannon's diversity index", x="Depth (m)")
+
+
+
+m.perc %>% 
+  
+  plot_bar(fill="Phylum") + 
+  geom_bar(aes(fill=Phylum), stat="identity") +
+  labs(title="Example 4: Phylum across samples")
+
+
+
+#calculaing significance with linear model for detph
+
+m.norm %>% 
+  subset_taxa(Phylum=="Cyanobacteria") %>% 
+  tax_glom(taxrank = 'Phylum') %>%
+  psmelt() %>%
+  
+  lm(Abundance ~ Depth_m, .) %>% 
+  summary()
+
+#p-value is 0.01358
+#calculating significance with linear model for oxygen
+
+m.norm %>% 
+  subset_taxa(Phylum=="Cyanobacteria") %>% 
+  tax_glom(taxrank = 'Phylum') %>% 
+  psmelt() %>% 
+  
+  lm(Abundance ~ O2_uM, .) %>% 
+  summary()
+
+#p-value is 0.0001194
+
+
+
+#subsettaxa only works with mothur & not Qime
+m.perc %>% 
+  subset_taxa(Phylum=="Cyanobacteria") %>% 
+  psmelt() %>% 
+  group_by(Sample) %>% 
+  summarize(Abundance_sum=sum(Abundance), PO4_uM=mean(PO4_uM)) %>% 
+  
+  ggplot() +
+  geom_point(aes(x=PO4_uM, y=Abundance_sum)) +
+  geom_smooth(method='lm', aes(x=as.numeric(PO4_uM), y=Abundance_sum)) +
+  labs(title="Abundance of Cyanobacteria across PO4 Concentrations")

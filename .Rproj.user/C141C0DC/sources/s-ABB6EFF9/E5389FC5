@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1521945015809.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E5389FC5",
+    "lastKnownWriteTime" : 1520444586,
+    "last_content_update" : 1520444586,
+    "path" : "~/MICB425_materials/Module_03/Handouts/Problem_set_04.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_output_type" : "console",
+        "cursorPosition" : "104,15",
+        "scrollLine" : "95"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
