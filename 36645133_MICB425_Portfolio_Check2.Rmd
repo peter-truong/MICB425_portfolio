@@ -210,13 +210,22 @@ Single cell sequencing- provides a higher resolution for cellular differences an
 
 FISH (imaging technique using probe that binds to specific sequence in the cell)- Can help define the spatial-temporal patterns of gene expression within cells and tissues.
 
+## Module 02 references
+
+
+Rockström, J., Steffen, W., Noone, K., Persson, Å., Chapin III, F. S., Lambin, E. F., ... & Nykvist, B. (2009). A safe operating space for humanity. nature, 461(7263), 472.
+[PMID: 19779433](https://www.ncbi.nlm.nih.gov/pubmed/19779433)
+Martinez, A., Bradley, A. S., Waldbauer, J. R., Summons, R. E., & DeLong, E. F. (2007). Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proceedings of the National Academy of Sciences, 104(13), 5590-5595.
+[PMID: 17372221](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+
 
 
 #Module 03 
 
 ## Module 03 Microbial Species Concepts: Evidence worksheet_05 "Extensive mosaic structure"
 
-[Welch et al, 2002](Extensive mosaic structure revealed by the completegenome sequence of uropathogenic Escherichia coli)
+[Welch et al, 2002](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
 
 #### **Part 1 Learning Objectives**
 *Evaluate the concept of microbial species based on environmental surveys and cultivation studies
@@ -280,6 +289,11 @@ The figure above is a depiction of the pathogenicity islands present in both E.c
 From my understanding, an ecotype is a distinct species that occupies a specific habitat. But after reading this study, ecotype in the context of the human body could also be defined based on an organism's niche in the human microbiota and even their genetic composition. It is important to note that distinct ecotypes can share a common genomic backbone but differ in terms of genomic islands found within the backbone that have been acquired through lateral gene transfer across species. 
 
 Additionally, organisms localized in different areas of the human body are exposed to different environmental stimuli and host factors. As a result, the selectional pressures may vary depending on the site of localization and thus will have specific genes selected for. This is likely why CFT073 is able to retain its acquired pathogenicity islands as they are required for it to be able to adapt to its environment. Furthermore, it is likely that the genomic backbone of CFT073 is acquired from vertical descent. In contrast, it is the pathogenicity islands that have been acquired through horizontal gene transfer from other bacterial species. It is these island that encode specific genes that help promote the survival of CFT073 in its environment. Therefore the acquisition of these islands are paramount for the propagation of CFT073.
+
+## Module 03 References
+
+Welch, R. A., Burland, V., Plunkett, G. I. I. I., Redford, P., Roesch, P., Rasko, D., ... & Stroud, D. (2002). Extensive mosaic structure revealed by the complete genome sequence of uropathogenic Escherichia coli. Proceedings of the National Academy of Sciences, 99(26), 17020-17024.
+[PMID: 12471157](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
 
 
 

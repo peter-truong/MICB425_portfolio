@@ -53,26 +53,26 @@ Third level headers (###) should be used for links to assignments, evidence work
 
 
 
-## Origins and Earth Systems
-### Evidence worksheet 01 
+## Module 01
+### Evidence worksheet 01  Origins and Earth Systems
 The template for the first Evidence Worksheet has been included here. The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
 
 You can copy-paste in the answers you recorded when working through the evidence worksheet into this portfolio template. 
 
 As you include Evidence worksheets and Problem sets in the future, ensure that you delineate Questions/Learning Objectives/etc. by using headers that are 4th level and greater. This will still create header markings when you render (knit) the document, but will exclude these levels from the Table of Contents. That's a good thing. You don't' want to clutter the Table of Contents too much.
 
-[Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+[Whitman et al, 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
 #### Learning objectives
 Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
 
 #### General questions
-* What were the main questions being asked?  
+* **What were the main questions being asked?**  
 
 What is the actual number of prokaryotes in aquatic, soil, and oceanic and terrestrial subsurfaces?
 In terms of the total amount of carbon on Earth, how much of that is contributed by prokaryote-derived cellular carbon?
 
-* What were the primary methodological approaches used?  
+* **What were the primary methodological approaches used?**
 
 For calculating prokaryotes in the oceanic reservoir, polar region, and freshwater/saline lakes, they used estimates of lake/ocean volume and cellular density to determine the number of cells. For the polar region, they used an estimated number of prokaryotes based on previous literature from Delille & Rosiers and used the mean area of seasonal ice.
 
@@ -82,7 +82,7 @@ For calculating prokaryotes in the subsurface, they estimated that the prokaryot
 
 For carbon content and production calculations in prokaryotes, they first calculatd the dry weight of the cells. They made an assumption that the amount of carbon in prokaryotes was equal to half of their dry weight. Another assumption they made was that the amount of carbon produced during each turnover is approximately 4x their carbon content. As a result, they incorporated this information along with prokaryoti cturnover rates to calcualte the production of prokaryotic carbon.
 
-* Summarize the main results or findings.  
+* **Summarize the main results or findings.**
 
 Based on oceanic, soil, and oceanic and terrestrial subsurface habitats, the total estimated number of prokaryotes is 4-6 x 10^30^ cells
 
@@ -117,28 +117,31 @@ The cellular production rate is approximately 1.7 x 10^30^ cells/year and it is 
 The abundance of prokaryotes offers a big capacity for genetic diveristy
 
 
-* Do new questions arise from the results?  
+* **Do new questions arise from the results?**
 
 With such a large number of prokaryotes, how do their turnovers affect nutrient cycles. Furthermore, how do they play a role in the total metabolic potential of the ecosystem?
 
 Since they used a lot of assumptions in their calculations, how accurate are their numbers? Also, how much are we overestimating the subsurface biomass provided that the calculations the authors used incorporated non-representative data?
 With their sheer abundance, do they influence any other factors and events on Earth?
 
-* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+* **Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?**
 
 In my opinion, the results were clear. However, the methods that were used to obtain the data from other studies were not well referenced/explained in this paper. There were a lot of statistics and data sets incorporated from other studies, but the authors did not provide adequate information on how the numbers themselves were obtained.
 
 The paper also used a lot of extrapolations and made a lot of assumptions for their calculations which provides a feeling of uncertainty or a level of skepticism with their results.
 
-### Evidence Worksheet_02 “Life and the Evolution of Earth’s Atmosphere”
-#### Learning objectives: 
+### Evidence Worksheet_02 Life and the Evolution of Earths Atmosphere
+
+[Nisbet & Sleep, 2001](https://www.nature.com/articles/35059210)
+
+#### **Learning objectives**: 
 Comment on the emergence of microbial life and the evolution of Earth systems
 
 In Earth's rich history, early life was heavily influenced by significant events involving meteorite impacts, extinction periods, hot temperatures, and global glaciation. As a result, the emergence of early life forms had to withstand harsh environments. As a result, hyperthermophiles were able to flourish as well as lithotrophs that were present in the Earth's crust. In terms of where life may have initiated, it is currently hypothesized that life could have emerged from outerspace through meteorite impacts and that life may have diversified in proximity to hydrothermal vents. From Earth's timeline, life began with non-photosynthetic organisms which eventually evolved into both oxygenic and anoxygenic photosynthetic organisms. This differentiation further drove life to expand and inhabit different environments on Earth.
 
     
     
-* Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so. 
+* **Indicate the key events in the evolution of Earth systems at each approximate moment in the time series. If times need to be adjusted or added to the timeline to fully account for the development of Earth systems, please do so.**
 
     + 4.6 billion years ago : The solar system formed and the inner planets received both carbon and water vapour
     
@@ -173,7 +176,7 @@ In Earth's rich history, early life was heavily influenced by significant events
     + 250 million years ago: This is when the Permian extinction occured where 95% of the world's species became extinct. This was also the period where there                              was an increase in the "gigantism" of organisms
 
 
-* Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:  
+* **Describe the dominant physical and chemical characteristics of Earth systems at the following waypoints:**  
 
     + Hadean: During the Hadean period, the sun was much weaker/dimmer. As a result, there was an abundance of CO2 to keep the Earth warm. The Earth was also                mainly molten rock
     
@@ -187,9 +190,10 @@ In Earth's rich history, early life was heavily influenced by significant events
 #### Learning objectives: 
 Describe the numerical abundance of microbial life in relation to the ecology and biogeochemistry of Earth systems.
 
+[Whitman et al, 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
 #### Specific questions:
-* What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
+* **What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.**  
 
 1.2 x 10^29^ cells in open ocean
 2.6 x 10^29^ cell sin soil
@@ -197,7 +201,7 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 0.25 to 2.5 x 10^30^ cells in terrestrial subsurface
 Total of 3.8x 10^30^ cells in both oceanic and terrestrial subsurface
 
-* What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth? 
+* **What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including Prochlorococcus? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?**
 
 3.6x10^28^ cells in the upper 200m of the ocean
 
@@ -208,7 +212,7 @@ Total of 3.8x 10^30^ cells in both oceanic and terrestrial subsurface
 8% of the autotrophs are responsible for the amounto fo carbon being cycled through the Earth's oceans, which ultimately support carbon availability for the 
 rest of the 92% heterotrophs
 
-* What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
+* **What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?**
 
 An autotroph uses carbon from inorganic sources, and typically light as an energy source. They can fix organic carbon into their biomass.
 
@@ -217,7 +221,7 @@ A heterotroph uses carbon from organic sources and uses an organic energy Source
 A lithotroph uses an inorganic carbon source and an inorganic energy source. They assimilate inorganic substrates.
 
 
-* Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+* **Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?**
 
 There is life upto 4km deep in the subsurface.
 
@@ -227,19 +231,19 @@ The deepest point in the ocean is the Mariana's Trench which is approximately 10
 The limiting factor at these depths is the temperature.  At 4km deep into the substrate the temperature is approximately 125 degrees celsius.
 
 
-* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
+* **Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?**
 
 
 Highest altitude that contains life is the peak of Mount Everest which is approximately 8.8km above sea level. Although life may exist higher than this, it's extremely rare. The limiting factors are ionizing radiation and a lack of nutrients and moisture.
 
 
 
-* Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
+* **Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?**
 
 From the top of Mount Everest (8.8km high) to the bottom of Mariana's Trench (10.9km deep + 4km deeper into the sediment) gives us a vertical range of approximately 24km.
 
 
-* How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)
+* **How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)**
 
 Annual cellular production in table 7 (column 4) was determined by taking the populatoin size and dividing it by turnover time in years
 Population x turnover time (years) = cells/year
@@ -248,7 +252,7 @@ E.g.
 
 ((3.6 x 10^28^ cells)  x ( 365 days))/16 turnovers = 8.2x10^29^ cells/year
 
-* What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+* **What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?**
 
 From the author, carbon efficiency is approximated to be 20%
 
@@ -271,7 +275,7 @@ Contrasting the amount of carbon produced/consumed in the different parts of the
 
 
 
-* How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
+* **How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)**  
 
 (4.7x10^-7^ mutations/generation)^4^  = 2.56 x 10^-26^ mutations/generation
 
@@ -287,17 +291,22 @@ Contrasting the amount of carbon produced/consumed in the different parts of the
 
 With a fast turnover rate and a big population size, these numbers are possible with respect to microbial population
 
-* Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
+* **Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?**  
 
-* What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
+The large population size and high mutation rate of prokaryotic cells ultimately contributes to increased genetic diversity which leads to an increase in adaptive potential. Besides point mutations, lateral transfers of insertion sequences, along with horizontal gene transfer are other ways in which microbial genomes can diversify and adapt.
 
+* **What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text?**
+
+Increased prokaryotic abundance and replication leads to high mutation rates which ultimate contributes to increasing microbial diversity of the population. Additionally this also leads to an increased metabolic potential inr esponse to selective pressures.
 
 ### Problem set02 Microbial Engines
+
+[Falkowski et al, 2008](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
 #### Learning objectives: 
 Discuss the role of microbial diversity and formation of coupled metabolism in driving global biogeochemical cycles.
 
 #### Specific Questions:
-* What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?  
+* **What are the primary geophysical and biogeochemical processes that create and sustain conditions for life on Earth? How do abiotic versus biotic processes vary with respect to matter and energy transformation and how are they interconnected?**
 
 Geophysical processes: Atmospheric photochemical and tectonic proccesses are responsible for supplying substrates and removing products which lead to geochemical cycles. During this cycle, molecules are able to interact iwth each other and form/break chemical bonds.
 
@@ -305,22 +314,22 @@ Biogeochemical processes: Biogeochemical processes are more based upon acid/base
 
 Abiotic processes like volcanism cna create biogeochemical cycles on a planetary scale and geological time-scales. They are able to affect a smaller portion of major bioelement levels like C, S, and P. In contrast, biotic processes are more driven by redox reactions and are responsible for more major bioelements (C, H, N, O). These two processes are connected in that biogeochemical cycles can also drive abiotically driven acid-base reactions and biologically driven redox reactions that set lower limits one xternal energy that is rquired to sustain cycles.
 
-* Why is Earth's redox state considered an emergent property?
+* **Why is Earth's redox state considered an emergent property?**
 
 Earth's redox state is considered an emergent property because it stems from the feedback between biogeochemical procces and microbial evolution. As a result, every process is interconnected.
 
 
-* How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?  
+* **How do reversible electron transfer reactions give rise to element and nutrient cycles at different ecological scales? What strategies do microbes use to overcome thermodynamic barriers to reversible electron flow?** 
 
 Reversible electron transfer reactions give rise to element and nutrient cycles at different cological scales through feeding their end products into new reactions. As an example, methanogens are capable of reducing CO2 with H2. However, they require a higher amount of H+ to make the reaction proceed forward, otherwise the opposite reaction occurs. Interestingly, certain methanogens can preferentially utilize the unfavourable reverse reaction through symbiosis with H2 consuming sulfate reducers.
 
-* Using information provided in the text, describe how the nitrogen cycle partitions between different redox niches and microbial groups. Is there a relationship between the nitrogen cycle and climate change?   
+* **Using information provided in the text, describe how the nitrogen cycle partitions between different redox niches and microbial groups. Is there a relationship between the nitrogen cycle and climate change?**
 
 The nitrogen cycle partitions between different redox niches and microbial groups through nitrogen fixation. Unfortunately, enzymes that are capable of catalyzing this reaction are inhibited by O2.
 
 NH4 ix oxidized to NO2 in the presence of O2 by one group of bacteria and further oxidized into NO3 by a different group of nitrifying microbes. These nitrifiers catalyze these reactions to reduce CO2 into organic matter. In anoxygenic environments, microbes can also use NO2 and NO3 as electron acceptors in anaerobic oxidation thus producing N2, closing the nitrogen cycle. This cycle forms an interdependent electron pool that is influenced by photosynthetic production of oxygen and the availability of organic matter. Additionally, sunlight availability is impacted by climate change. Since light is a requirement for photosynthesis, changes in this source can affect the nitrogen cycle by photosynthetic organisms that utilize nitrogen oxides like NO2 and NO3 as terminal electron acceptors. Furthrmore, the N-cycle can also influence climate change through the nitrifying organisms. These organisms can reduce CO2 with NH4 or NH2 into organic matter, thus reducing greenhouse gas effects by depleting atmospheric CO2.
 
-* What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?  
+* **What is the relationship between microbial diversity and metabolic diversity and how does this relate to the discovery of new protein families from microbial community genomes?** 
 
 Redox reactions of a given element cycle are typically segragated to different organisms. As a result, microbes tend to have different roles in a specialized community. With more metabolic diversity, we get organisms epceilizing in different pathways which then require the help of other organisms, This feedback can lead to the rise of microbial diversity.
 
@@ -329,7 +338,7 @@ From horizontal gene transfer, microbes are able to transfer genes and metabolic
 In terms of how microbial diversity and metabolic diversity relate to the discovery of new protein families from microbial community genomes, as the amount of microbial diversity increases, so does the number of different metabolic pathways required for organisms to live in their environment. This microbial diversity leads to a wider diversity and range of proteins that are produced which is required for diverse microorganisms to survive in the niche. It has been hypothesized that the majority of unexplored genomes include environment specific genes that are only capable of expression under specific environmental conditions and potentially with other organisms. 
 
 
-* On what basis do the authors consider microbes the guardians of metabolism? 
+* **On what basis do the authors consider microbes the guardians of metabolism?** 
 
 From Earth's history, we know that it has been thorugh several glaciation events. AS a result, life was constrained to tiny pockets of microbal microenvironments. It was here in these pockets where metabolic pathways remained protected. Fast forward to today, metabolic mechanisms/machineries have been transferred to almost every species on the planet. From history we have learned that while individual taxonomic units can go extinct, the metabolic machinery remain protected and continue to be transferred.
 
@@ -338,4 +347,8 @@ Utilize this space to include a bibliography of any literature you want associat
 
 An example for Whitman and Wiebe (1998) has been included below.
 
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+Whitman, W. B., Coleman, D. C., & Wiebe, W. J. (1998). Prokaryotes: the unseen majority. Proceedings of the National Academy of Sciences, 95(12), 6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+Falkowski, P. G., Fenchel, T., & Delong, E. F. (2008). The microbial engines that drive Earth's biogeochemical cycles. science, 320(5879), 1034-1039.
+[PMID: 18497287](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
+Nisbet, E. G., & Sleep, N. H. (2001). The habitat and nature of early life. Nature, 409(6823), 1083.
+[PMID: 11234022](https://www.ncbi.nlm.nih.gov/pubmed/11234022)
