@@ -1,0 +1,68 @@
+---
+
+title: "Project 2 self-assessment of contributions"
+author: "Peter Truong (36645133)"
+subtitle: "2018 Term 2 - MICB425"
+output: 
+  html_document:
+    toc: true
+---
+
+
+#Module 04 Project 2 self assessment
+
+## Abstract
+### Writing
+
+### Editing
+
+I helped edit some parts of the abstract.
+
+
+## Introduction
+### Literature research
+
+### Writing
+
+### Editing
+
+
+## Methods
+### Writing
+
+I wrote the entire methods section.
+
+### Editing
+
+
+## Results
+
+### Anaysis 
+
+
+
+### Figures
+
+
+
+### Writing
+
+
+
+### Editing
+
+
+
+## Discussion
+### Literature research
+
+I did the literature research for the first half of the  discussion section.
+
+### Writing
+
+I wrote the first half of the discussion.
+
+### Editing
+
+I edited the entire discussion section.
+

@@ -4,7 +4,6 @@ library("tidyverse")
 source("https://bioconductor.org/biocLite.R")
 
 biocLite('phyloseq')
-
 library("phyloseq")
 
 library("magrittr")
@@ -90,3 +89,14 @@ m.perc %>%
   geom_point(aes(x=Depth_m, y=Abundance_sum)) +
   geom_smooth(method='lm', aes(x=as.numeric(Depth_m), y=Abundance_sum)) +
   labs(title="Abundance of Cyanobacteria across oxygen concentrations")
+
+
+
+
+set.seed(4832)
+q.norm = rarefy_even_depth(qiime2, sample.size=100000)
+
+dim(otu_table(q.norm))
+
+dim(otu_table(m.norm))
+

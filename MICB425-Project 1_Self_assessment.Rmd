@@ -1,0 +1,63 @@
+---
+
+title: "Project 1 self-assessment of contributions"
+author: "Peter Truong (36645133)"
+subtitle: "2018 Term 2 - MICB425"
+output: 
+  html_document:
+    toc: true
+---
+
+
+#Module 03 Project 1 self assessment
+
+## Abstract
+### Writing
+
+### Editing
+
+
+## Introduction
+### Literature research
+
+### Writing
+
+### Editing
+
+
+## Methods
+### Writing
+
+### Editing
+
+
+## Results
+### Anaysis 
+
+I helped interpret the data for all 5 questions of the results section
+
+### Figures
+
+I generated the code for figure 5
+
+### Writing
+
+I wrote the answers to questions 4 and 5 the results section
+
+### Editing
+
+I edited the entire results section for grammar and removed unncessary figures and organized which figures should be in a multipanel.
+
+## Discussion
+### Literature research
+
+I did the majority of the literature research for the discussion section and helped Yaqian with her part of the literature research for the discussion section.
+
+### Writing
+
+I wrote the first half of the discussion.
+
+### Editing
+
+I edited the entire discussion section and helped Yaqian organize her part of the discussion.
+
